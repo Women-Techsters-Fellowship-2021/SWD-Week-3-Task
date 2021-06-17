@@ -27,7 +27,7 @@ Let me explain a bit further:
 
 If you’re confused on how the app would look, I’ve taken the stress of creating a beautiful design that can be found at this [link](https://www.figma.com/file/AmXexOs7MdFilk8SOEA2Fe/Untitled?node-id=1%3A2). You don’t have to follow the design *(It would be nice if you did)* but the design should give you a fair idea of what needs to be done. 
 
-![image-20210529092855021](C:\Users\SPYCAT-PC\AppData\Roaming\Typora\typora-user-images\image-20210529092855021.png)
+![Example](https://raw.githubusercontent.com/Women-Techsters-Fellowship-2021/SWD-Week-3-Task/master/example.png)
 
 
 
