@@ -42,3 +42,7 @@ use this [link](https://forms.office.com/r/3srrtDLQ1R) to submit your task. If t
 *You may need it* 
 
  
+
+
+
+**NOTE:** Please read *'HOW TO SUBMIT.md'* to submit your code to this repo. Good Luck.
