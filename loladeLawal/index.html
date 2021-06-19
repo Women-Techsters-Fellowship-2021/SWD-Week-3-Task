@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+        <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+        <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+        <!-- font awesome -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" 
+        crossorigin="anonymous" 
+    />
+</head>
+<body>
+    
+    <main>
+        <header>
+            <h1>My Shopping List</h1>
+        </header>
+
+        <form action="">
+            <input type="text" class="item-title" placeholder="Item title">
+            <input type="number" class="item-quantity" placeholder="Quanlity">
+            <textarea name="description" class="item-description" placeholder="Description" cols="30" rows="3"></textarea>     
+            <button class="shopping-button" type="submit">
+                <i class="fas fa-plus"></i>
+            </button>
+        </form>
+
+        <div class="shopping-list-container">
+            <ul class="shopping-list">
+                <!-- this is the expected layout of the shopping list when each shopping item is added below -->
+                <!-- <li class="shopping-list-item">
+                    <div>
+                        <h3>Buiscuits</h3>
+                        <span>Buy some buiscuits for ted</span>
+                        <h4>Quantiity: x8</h4>
+                    </div>
+                    <button type="submit" class="complete-btn">Done</button>
+                </li>
+                <li class="shopping-list-item">
+                    <div>
+                        <h3>Football</h3>
+                        <span>Buy a football as Ted's 7th birthday gift</span>
+                        <h4>Quantity: x1</h4>
+                    </div>
+                    <button type="submit" class="complete-btn">Done</button>
+                </li> -->
+            </ul>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

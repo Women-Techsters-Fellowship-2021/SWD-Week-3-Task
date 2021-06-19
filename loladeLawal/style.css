@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins", sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    color: #bdbdbd;
+    text-align: center;
+}
+form {
+    margin: 20px 0;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 20px 10px;
+}
+input, textarea, form button {
+    padding: 15px;
+    border: 1px solid #aaaaaa;
+    border-radius: 15px;
+    background-color: #fefefe;
+    outline: none;
+}
+form textarea {
+    grid-column: 1/3;
+    resize: none;    
+}
+form button {
+    grid-column: 1 / 3;
+    justify-self: center;
+    align-self: center;
+    background-color: #67cf97;
+    outline: none;
+    cursor: pointer;
+}
+button .fas {
+    font-size: 30px;
+    color: #fff;
+}
+.shopping-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping-list {
+  width: 100%;
+  list-style: none;
+}
+.shopping-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #aaaaaa;
+    line-height: 25px;
+}
+.shopping-list-item:last-child {
+    border-bottom: none;
+}
+.complete-btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #67cf97;
+    border: none;
+}
+.complete {
+    display: none;
+}
+.input-field {
+    border: 3px solid red;
+}
+.error {
+    border-color: red;
+}
+
+@media (max-width:760px) {
+    main {
+        padding: 20px;
+        width: 100%;
+    }
+    input[type=text],input[type=number] {
+        grid-column: 1 / 3;
+    }
+}
