@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping list javascript app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>My Shopping List</h1>
+      <section id="add-item">
+        <form id="add-form">
+          <input
+            type="text"
+            placeholder="Item title"
+            id="title"
+            required
+            autocomplete="off"
+          />
+          <input type="number" placeholder="Quantity" id="quantity" required />
+          <span id="titleError" class="error"></span
+          ><span id="quantityError" class="error"></span>
+          <textarea
+            placeholder="Description"
+            id="description"
+            required
+          ></textarea>
+          <span id="descriptionError" class="error"></span>
+          <button id="add-btn" class="btn" type="submit">+</button>
+        </form>
+      </section>
+      <section id="view-items"></section>
+    </main>
+
+    <script src="task.js"></script>
+  </body>
+</html>
