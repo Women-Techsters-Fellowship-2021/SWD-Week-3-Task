@@ -1,0 +1,97 @@
+body {
+    min-width: 30%;
+    max-width: 40%;
+    margin: 20px auto; 
+
+}
+
+.wrapper {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.add-section {
+    border: 1px solid green;
+    border-radius: 2%;
+}
+
+input.item {
+    padding: 10px 55px;
+    margin: 20px 5px 5px 0;
+    border-radius: 5%;
+}
+
+input.quantity{
+    padding: 10px 10px;
+    margin: 20px 0 5px 0;
+    border-radius: 5%;
+}
+
+input.description {
+    padding: 20px 160px;
+    margin: 20px 0 10px 0;
+    border-radius: 5%;
+}
+
+div.button {
+    margin: 20px 0 10px 0;
+   
+}
+
+span.add-button {
+    font-size: 30px;
+    font-weight: 900;
+    border: 1px solid green;
+    background-color: green;
+    padding: 0 20px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.close { 
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    padding: 12px 16px 12px 16px; 
+} 
+
+.close:hover { 
+    background-color:red; 
+    color: white; 
+} 
+
+
+
+ul li {
+    list-style: none;
+}
+
+
+ul li:nth-child(odd) { 
+    background: #f9f9f9; 
+} 
+
+ul li:hover { 
+    background: #ddd; 
+} 
+
+ul li.checked { 
+    background: rgb(66, 69, 75); 
+    color: white; 
+    text-decoration: line-through; 
+} 
+
+ul li.checked::before { 
+    content: ''; 
+    position: absolute; 
+    border-color: #fff; 
+    border-style: solid; 
+    border-width: 0 2px 2px 0; 
+    top: 10px; 
+    left: 16px; 
+    transform: rotate(45deg); 
+    height: 15px; 
+    width: 7px; 
+} 
