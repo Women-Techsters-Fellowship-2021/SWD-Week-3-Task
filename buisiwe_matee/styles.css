@@ -1,0 +1,64 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100px;
+    background: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: blue;
+    margin-top: 100px;
+}
+form{
+    margin-top: 50px;
+    background: chocolate;
+    box-shadow: -3px 6px 4px cyan;
+}
+form input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+}
+form button{
+    width: 50px;
+    height: 40px;
+    border: none;
+    background:teal;
+    color: yellow;
+    outline: none;
+    cursor: pointer;
+}
+.container{
+    margin-top: 50px;
+}
+ul{
+    list-style: none;
+    width: 500px;
+}
+ul li{
+    width: 100%;
+    background:tomato;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin: 5px 0;
+    box-shadow: -3px 6px 4px cyan;
+}
+ul li span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    text-align: center;
+    background: chartreuse;
+}
