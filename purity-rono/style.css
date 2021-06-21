@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    margin: 10px;
+    scroll-behavior: smooth;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #591902;
+}
+
+section{
+    background-color: #D2D5D9;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #D97C2B;
+}
+
+form{
+    margin: 70px;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline;
+}
+
+label:last-of-type{
+    margin-bottom: 0;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #8C3503;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    color: #591902;
+    font-size: 10px;
+    margin: 20px 0;
+}
+
+button{
+    background-color: #D97C2B;
+    color: #0D0D0D;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: #8C3503;
+}
+
+/*Style list items*/
+ul{
+    padding: 10px;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 20px 12px 20px;
+    list-style: none;
+    background: #D99748;
+    font-size: 18px;
+    transition: 0.2s;
+
+/*make the list items unselectable*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li p{
+    content: '';
+    padding: 5px;
+}
+
+/*set zebra stripes*/
+ul li:nth-child(odd){
+    background: #D97C2B;
+}
+
+ul li:hover{
+    background: #8C3503;
+}
+
+/*when checked*/
+ul li.checked{
+    background: #591902;
+    color: #D2D5D9;
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+/*add 'checked' mark*/
+ul li.checked::before{
+    content: '';
+    position: absolute;
+    border-color: #D2D5D9;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+/* close button*/
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover{
+    background-color: #D97C2B;
+    color:white
+}
+
+
+/*footer styling*/
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #591902;
+    color: #D97C2B;
+}
+
+
+
+
+/* Color Theme Swatches in Hex */
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-1-hex {
+    color: #D2D5D9;
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-2-hex {
+    color: #D99748;
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-3-hex {
+    color: #D97C2B;
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-4-hex {
+    color: #8C3503;
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-5-hex {
+    color: #591902;
+}
+
+/* Color Theme Swatches in RGBA */
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-1-rgba {
+    color: rgba(210, 213, 216, 1);
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-2-rgba {
+    color: rgba(216, 151, 71, 1);
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-3-rgba {
+    color: rgba(216, 124, 43, 1);
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-4-rgba {
+    color: rgba(140, 53, 2, 1);
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-5-rgba {
+    color: rgba(89, 25, 1, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-1-hsla {
+    color: hsla(213, 7, 83, 1);
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-2-hsla {
+    color: hsla(33, 65, 56, 1);
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-3-hsla {
+    color: hsla(28, 69, 51, 1);
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-4-hsla {
+    color: hsla(22, 96, 28, 1);
+}
+
+.SHOPPING-LIST-handwritten-on-notepad-on-desk-5-hsla {
+    color: hsla(16, 96, 17, 1);
+}
