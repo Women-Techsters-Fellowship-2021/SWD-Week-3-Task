@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./main.js" defer></script>
+    <title>SHOPPING LIST</title>
+</head>
+<body>
+    <section>
+        <h1>SHOPPING LIST</h1>
+        <div id="form">
+            <form onsubmit="return false">
+                <label for="Item">Item:</label>
+                <input type="text" name="item" id="name" placeholder="Add item...">
+
+                <label for="Quantity">Quantity:</label>
+                <input type="text" name="quantity" id="quantity" placeholder="Add quantity...">
+
+                <label for="Description">Description:</label>
+                <textarea name="desc" id="desc"  placeholder="Description..."></textarea>
+
+                <button id="btn"><i class="fa fa-plus" aria-hidden="true"></i> ADD ITEM</button>
+            </form>
+        </div>
+
+        <div>
+            <ul id="myList">
+                <li class="checked">
+                    <p>
+                        Mango <br>
+                        2 <br>
+                        ripe
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Ketchup <br>
+                        1kg <br>
+                        Heinz
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pasta <br>
+                        3 pkts <br>
+                        Santa Maria
+                    </p>
+                </li>
+
+            </ul>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; purity.rono 2021</p>
+    </footer>
+</body>
+</html>
