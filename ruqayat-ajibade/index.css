@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornsilk;
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*This styles the h1 element*/
+h1 {
+  padding: 5px;
+  width: max-content;
+  margin: 10px auto;
+  align-self: center;
+}
+
+#shopping-list {
+  height: 50vh;
+  width: 50%;
+  margin: auto;
+
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px 1px rgb(179, 175, 175);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*This styles the inputs*/
+
+.entries {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid gray;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: all 500ms;
+  font-family: inherit;
+}
+
+/*This styles the add-items button*/
+#add-btn {
+  background-color: lime;
+  margin: 20px 10px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-weight: l100;
+  color: #444;
+  box-shadow: 0 5px 5px -3px gray;
+}
+
+#items-container {
+  height: auto;
+  min-height: 40vh;
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px 1px rgb(179, 175, 175);
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px;
+  margin: 30px 0;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: wheat;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.del-btn {
+background-color: red;
+  margin: 20px 10px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-weight: l100;
+  color: #444;
+  box-shadow: 0 5px 5px -3px gray;
+}
