@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shoppinglist.css">
+    <title>Shopping list</title>
+</head>
+
+<body>
+    <h2>My Shopping & To-Do List</h2>
+
+    <form class="form-group">
+        <input id="item-form" name="item-name" type="text" class="item_input" placeholder="Item title" />
+        <input id="qty-form" name="quantity" type="text" class="qty_input" placeholder="Quantity" />
+        <input id="desc-form" name="description" type="text" class="desc_input" placeholder="Description" />
+
+    </form>
+
+    <button class="todo_button" id="add-button">+</button>
+
+    <div class="todo_container">
+        <h2 style="text-align: center;">To-Do List</h2>
+        <ul class="todo_list">
+            <li class="todo_info">
+
+            </li>
+
+        </ul>
+    </div>
+
+    <script src="shoppinglist.js"></script>
+
+</body>
+
+</html>
