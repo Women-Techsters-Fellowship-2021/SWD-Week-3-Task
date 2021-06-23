@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <div id="heading">
+            <h1>My Shopping List</h1>
+        </div>
+
+        <div id="form-container">
+
+            <form action="#" method="POST">
+                <input 
+                    type="text" 
+                    name="item-name" 
+                    id="item-name" 
+                    placeholder="Item Name">
+                <input
+                    type="number" 
+                    name="quantity" 
+                    id="quantity" 
+                    placeholder="Quantity">
+                <textarea 
+                    name="description" 
+                    id="description" 
+                    placeholder="Enter description"
+                    cols="30" 
+                    rows="6">
+                </textarea>
+                <button 
+                    type="button"
+                    id="add-btn">Add to List
+                </button>
+            </form>
+
+        </div>
+
+        <div class="items-table">
+        
+        </div>
+
+    </div>
+
+    <script src="script.js"defer></script>
+</body>
+</html>
